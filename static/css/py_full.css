@@ -1,0 +1,87 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.courses {
+    background-color: #f1f1f1;
+    flex: 1 1 0px;
+    padding: 20px;
+}
+
+.courses h2 {
+    margin-top: 0;
+}
+
+.course-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.course-details {
+    background-color: #e0e0e0;
+    flex: 1 1 0px;
+    padding: 20px;
+}
+
+.course-details h2,
+.course-details p {
+    margin-top: 0;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: auto;
+    background-color: none;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 100;
+    background-color: none;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }

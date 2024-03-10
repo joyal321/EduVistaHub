@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Python for Beginners",
+        "description": "Learn Python from scratch. No experience required."
+    },
+    {
+        "id": 2,
+        "title": "Intermediate Python",
+        "description": "Expand your Python knowledge with advanced concepts."
+    },
+    {
+        "id": 3,
+        "title": "Python for Data Science",
+        "description": "Use Python for Data Science."
+    }
+
+]
