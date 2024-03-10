@@ -1,1 +1,1 @@
-# EduVistaHub
+# EduVistaHub - A Educational Website
