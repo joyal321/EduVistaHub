@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Eduvistahub.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['app/templates','customapp/templates'],
+        'DIRS': ['app/templates','customadmin/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
