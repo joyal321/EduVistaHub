@@ -15,11 +15,11 @@ def login(request):
     if request.method == "POST":
         username=request.POST['username']
         password=request.POST['pass']
-        user = authenticate(request, uname=username,
+        log = authenticate(request, uname=username,
                             pswd=password)
         
-        if user:
-            login(request, user)
+        if log is not None:
+            login(request, log)
             messages.error(request, 'Logged in Fail')
             return redirect('login')
         
